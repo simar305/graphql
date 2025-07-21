@@ -1,0 +1,22 @@
+# Ignore all node_modules
+**/node_modules/
+
+# Ignore build artifacts (if using React or Next)
+**/build/
+**/dist/
+
+# Log files
+**/*.log
+
+# OS and IDE files
+.DS_Store
+.env
+.env.local
+.vscode/
+
+# Dependency lock files (optional)
+# Uncomment below if using npm instead of yarn
+**/package-lock.json
+
+# If you want to ignore yarn.lock too, uncomment:
+**/yarn.lock
